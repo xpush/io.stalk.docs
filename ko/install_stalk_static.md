@@ -1,6 +1,7 @@
 Build STALK chat widget and start HTTP Server
 ======================
-`STALK Chat Widget` 은 고객이 방문하게 될 웹페이지의 위젯 형태로 보여주기 위한 스크립트 파일입니다. 여기서 생성되는 Javascript, CSS 파일은 별도의 웹서버에 올려 서비스 할 수 있도록 하면 되겠습니다.
+`STALK Chat Widget` 은 고객이 방문하게 될 웹페이지의 위젯 형태로 보여주기 위한 스크립트 파일입니다. 
+여기서 생성되는 Javascript, CSS 파일은 별도의 웹서버에 올려 서비스 할 수 있도록 하면 되겠습니다.
 
 ### 1. STALK Chat Widget 소스 다운로드 및 설치.
 ``` bash
