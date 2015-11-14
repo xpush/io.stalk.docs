@@ -10,7 +10,6 @@ Requirements
 	$ git clone https://github.com/smilefam/jiver-sample.git
 ```
 
-
 ### node.js 설치하기
 [node.js installation](http://nodejs.org/download/)를 참조하여 nodejs를 다운로드하고 압축을 해제합니다.
 ``` bash
