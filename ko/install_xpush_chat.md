@@ -3,6 +3,7 @@ Install and start XPUSH chat server
 `XPUSH` 모듈을 기반으로 실시간 채팅기능을 내장한 `XPUSH-CHAT`는 `STALK`서비스의 실시간 메시지 송수신을 담당하게 됩니다.
 
 `XPUSH-CHAT` 는 Session Server 와 Channel Server 로 구분되어 실행해야 합니다.
+
  * **Channel Server**: 실제 실시간 메시지 송수신을 처리하는 서버로서, 다수의 Client 가 Channel Server에 접속하여 실시간으로 메시지를 송수신 하게 됩니다. Channel Server 는 접속자가 많아지면 질수록 추가 실행될 필요가 있습니다.
  * **Session Server**: 접속 사용자의 인증을 담당하고, 분산 구성된 다수의 Channel Server 들 중에 어느 서버에 접속해야 하는지 판단하여 분산 할당하는 역할을 담당합니다.
 
