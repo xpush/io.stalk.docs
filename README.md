@@ -1,1 +1,1 @@
-# io.stalk.docs
+# STALK - Developer's Guide
