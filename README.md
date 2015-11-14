@@ -1,2 +1,2 @@
 # STALK
-Documentation for developers
+Documentation for developers (for gitbook)
