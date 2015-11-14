@@ -1,0 +1,235 @@
+/* CSS for website */
+@import url(//fonts.googleapis.com/css?family=Exo+2:400,300,500,700);
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(//fonts.googleapis.com/css?family=Lato:400,300,100,700);
+@import url(//cdn.jsdelivr.net/font-hack/2.010/css/hack-extended.min.css);
+/* @import url(https://highlightjs.org/static/demo/styles/atelier-cave.light.css); */
+
+* {
+  font-family: 'Lato', 'Nanum Gothic', sans-serif;
+}
+code > * {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+/* 
+ * Side Menu 
+ */
+.book .book-summary ul.summary {
+  background-color: #3f4659;
+}
+
+.book .book-summary ul.summary li a,
+.book .book-summary ul.summary li span {
+  color: #8895b8;
+  font-size: 15px;
+  padding: 12px 15px 13px;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 400;
+}
+
+.book .book-summary ul.summary li a:hover,
+.book .book-summary ul.summary li span:hover {
+  color: #8895b8;
+  background-color: #51596b;
+}
+
+.book .book-summary ul.summary li.chapter.active > a,
+.book .book-summary ul.summary li.chapter.done.active > a {
+  color: white;
+  border-left: 4px solid #28ccbe;
+}
+
+.book .book-summary ul.summary li.chapter.done a {
+  color: #8895b8;
+}
+
+.book .book-summary ul.summary li.divider {
+  /* Side Menu divider */
+  background: #222838;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal > *:first-child {
+  /* Page Title */
+  font-size: 32px;
+  color: #4f398f;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  border-bottom: 1px solid #7e97b0;
+  padding-bottom: 14px;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal h1 {
+  font-size: 32px;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal h2 {
+  font-size: 28px;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal h3 {
+  /* Page h3 ## */
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal h4 {
+  font-size: 18px;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal h5 {
+  font-size: 16px;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal h6 {
+}
+
+.book .book-body .page-wrapper .page-inner section.normal h1,
+.book .book-body .page-wrapper .page-inner section.normal h2,
+.book .book-body .page-wrapper .page-inner section.normal h3,
+.book .book-body .page-wrapper .page-inner section.normal h4,
+.book .book-body .page-wrapper .page-inner section.normal h5,
+.book .book-body .page-wrapper .page-inner section.normal h6 {
+  color: #485766;
+  line-height: 1;
+  font-family: "Exo 2", sans-serif;
+  letter-spacing: -0.5px;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal h2,
+.book .book-body .page-wrapper .page-inner section.normal h3,
+.book .book-body .page-wrapper .page-inner section.normal h4,
+.book .book-body .page-wrapper .page-inner section.normal h5,
+.book .book-body .page-wrapper .page-inner section.normal h6 {
+  margin-top: 50px;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal a {
+  /* Page Anchor */
+  color: #28acde;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal p,
+.book .book-body .page-wrapper .page-inner section.normal blockquote,
+.book .book-body .page-wrapper .page-inner section.normal ul,
+.book .book-body .page-wrapper .page-inner section.normal ol,
+.book .book-body .page-wrapper .page-inner section.normal dl,
+.book .book-body .page-wrapper .page-inner section.normal table,
+.book .book-body .page-wrapper .page-inner section.normal pre {
+  font-size: 16px;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal pre {
+  /* Code Block */
+  background-color: #efecf4;
+  padding: 22px;
+  font-size: 14px;
+  font-family: Hack, NanumGothicCoding, '나눔고딕코딩', monospace;
+  line-height: 1.25;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal p {
+  color: #38484e;
+}
+
+/* Side Bar Title */
+.custom-link {
+  color: white !important;
+  font-size: 28px !important;
+  font-weight: 300;
+  letter-spacing: -0.5px;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal ol, .book .book-body .page-wrapper .page-inner section.normal ul {
+  padding: 0 0 0 15px;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal table td, .book .book-body .page-wrapper .page-inner section.normal table th {
+  border: 1px solid #dfdbe3;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal table tr:nth-child(2n) {
+  background-color: #efecf4;
+}
+
+.book .book-summary ul.summary li i.fa-check {
+  color: #6b7799;
+}
+
+/* Language Selection */
+.book-langs-index {
+}
+
+.book-langs-index .inner h3 {
+  color: #485766;
+  font-size: 28px; 
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.book-langs-index .inner .languages {
+  border-top: 1px solid #7e97b0;
+}
+
+.book-langs-index .inner .languages li {
+  font-size: 12px;
+  text-align: center;
+}
+
+.book-langs-index .inner .languages li a {
+  color: #60768b;
+  background-color: #fafcff;
+  border: 1px solid #b9c3cc;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px;
+  width: 112px;
+  height: 28px;
+}
+
+.book-langs-index .inner .languages li:hover {
+  border: 1px solid #6742d6;
+}
+
+.book-langs-index .inner .languages li:hover a {
+  color: #6742d6;
+}
+
+.jiver-btn {
+  background: #fafcff;
+  border: 1px solid #b9c3cc;
+  border-radius: 0;
+  color: #60768b;
+  display: inline-block;
+  font-family: 'Exo 2';
+  font-size: 13px;
+  font-weight: 500;
+  height: 32px;
+  padding: 4px 10px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal a.jiver-btn.jiver-btn--green {
+  background: #28ccbe;
+  border: 1px solid #20b2a1;
+  color: #fff;
+  border-radius: 2px;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal a.jiver-btn.jiver-btn--green:hover,
+.book .book-body .page-wrapper .page-inner section.normal a.jiver-btn.jiver-btn--green:focus {
+  background: #0ca891;
+  border: 1px solid #0a7c5f;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.book .book-body .page-wrapper .page-inner {
+  max-width: 920px;
+}
+

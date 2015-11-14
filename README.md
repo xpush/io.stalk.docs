@@ -1,1 +1,2 @@
-# STALK - Developer's Guide
+# STALK
+Documentation for developers
