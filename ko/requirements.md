@@ -5,16 +5,6 @@ Requirements
 `STALK`를 실행하기 위해 필요한 구성요소를 설치하는 방법입니다. 아래는 64bit linux를 기준으로 작성되었으며, 각각 여러분의 환경에 맞게 설치하셔야 합니다. 이미 설치되어 있으면, 이번 장을 건너띄십시오.
 
 ### node.js 설치하기
-[nodejs installation](http://nodejs.org/download/)를 참조하여 nodejs를 다운로드하고 압축을 해제합니다.
-``` bash
-	$ wget http://nodejs.org/dist/v5.0.0/node-v5.0.0-linux-x64.tar.gz
-	$ tar zvf node-v5.0.0-linux-x64.tar.gz
-	$ cd node-v5.0.0-linux-x64
-	$ ./configure
-	$ make
-	$ sudo make install
-```
-### node.js 설치하기
 [node.js installation](http://nodejs.org/download/)를 참조하여 nodejs를 다운로드하고 압축을 해제합니다.
 ``` bash
 	$ wget http://nodejs.org/dist/v5.0.0/node-v5.0.0-linux-x64.tar.gz
@@ -23,7 +13,7 @@ Requirements
 	$ make
 	$ sudo make install
 ```
-To check that the installation was successful, you can ask Node to display its version number:
+설치가 완료되었다면, 버젼 확인을 통해 정상 설치 되었는지 확인합니다.
 ``` bash
 	$ node --version
 	v5.0.0
