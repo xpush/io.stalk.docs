@@ -7,9 +7,13 @@ Requirements
 ### node.js 설치하기
 [nodejs installation](http://nodejs.org/download/)를 참조하여 nodejs를 다운로드하고 압축을 해제합니다.
 ``` bash
-	$ git clone https://github.com/smilefam/jiver-sample.git
+	$ wget http://nodejs.org/dist/v5.0.0/node-v5.0.0-linux-x64.tar.gz
+	$ tar zvf node-v5.0.0-linux-x64.tar.gz
+	$ cd node-v5.0.0-linux-x64
+	$ ./configure
+	$ make
+	$ sudo make install
 ```
-
 ### node.js 설치하기
 [node.js installation](http://nodejs.org/download/)를 참조하여 nodejs를 다운로드하고 압축을 해제합니다.
 ``` bash
@@ -21,8 +25,8 @@ Requirements
 ```
 To check that the installation was successful, you can ask Node to display its version number:
 ``` bash
-  $ node --version
-  v5.0.0
+	$ node --version
+	v5.0.0
 ```
 
 ### zookeeper 설치하고 실행하기.
