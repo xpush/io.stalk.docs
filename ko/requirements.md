@@ -16,9 +16,9 @@ Requirements
 ``` bash
 	$ wget http://nodejs.org/dist/v5.0.0/node-v5.0.0-linux-x64.tar.gz
 	$ tar xzvf node-v* && cd node-v*
-  $ ./configure
-  $ make
-  $ sudo make install
+	$ ./configure
+	$ make
+	$ sudo make install
 ```
 To check that the installation was successful, you can ask Node to display its version number:
 ``` bash
@@ -41,11 +41,11 @@ To check that the installation was successful, you can ask Node to display its v
 [redis installation](http://redis.io/download#installation)를 참조하여 redis를 설치하고 실행합니다.
 아래는 redis 3.0.5을 설치하고 실행하는 코드입니다.
 ``` bash
-  $ wget http://download.redis.io/releases/redis-3.0.5.tar.gz
-  $ tar xzf redis-3.0.5.tar.gz
-  $ cd redis-3.0.5
-  $ make
-  $ src/redis-server
+	$ wget http://download.redis.io/releases/redis-3.0.5.tar.gz
+	$ tar xzf redis-3.0.5.tar.gz
+	$ cd redis-3.0.5
+	$ make
+	$ src/redis-server
 ```
 
 ### mongodb 설치하고 실행하기.

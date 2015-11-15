@@ -32,10 +32,10 @@ github 에서부터 소스를 다운받아 `npm install` 로 필요한 node 모�
 
 ### 3. Session Server 실행하기.
 ``` bash
-  $ bin/session-server --config ~/config/config.json --port 8000
+  $ bin/session-server --config ./config.json --port 8000
 ```
 
 ### 4. Channel Server 실행하기.
 ``` bash
-  $ bin/channel-server --config ~/config/config.json --port 9000
+  $ bin/channel-server --config ./config.json --port 9000
 ```
