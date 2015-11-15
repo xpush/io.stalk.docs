@@ -1,6 +1,7 @@
 Install and start STALK Admin Server
 ======================
 `STALK Admin Server` 는 웹사이트 관리자가 고객과 실시간 대화하고 통계 등의 기능을 제공하는 관리용 시스템입니다.
+
 `XPUSH-CHAT`서버와는 별도로 실행되는 서버입니다.
 
 ### 1. STALK Admin Server 소스 다운로드 및 설치
