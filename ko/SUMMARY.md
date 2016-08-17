@@ -6,3 +6,5 @@
   * [Start XPUSH Chat Server](install_xpush_chat.md)
   * [Start STALK Admin Server](install_stalk_admin.md)
   * [Build Client Chat widget](install_stalk_static.md)
+* [User Guide](user-guide/index.md)
+  * [Create account](user-guide/sign_up.md)
