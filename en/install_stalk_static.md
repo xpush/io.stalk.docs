@@ -1,8 +1,8 @@
 Build STALK chat widget and start HTTP Server
 ======================
-`STALK Chat Widget` 은 고객이 방문하게 될 웹페이지의 위젯 형태로 보여주기 위한 스크립트 파일입니다. 여기서 생성되는 Javascript, CSS 파일은 별도의 웹서버에 올려 서비스 할 수 있도록 하면 되겠습니다.
+`STALK Chat Widget` is a script file to be displayed as a widget of a web page that will be for customers to visit. The generated Javascript, CSS file, can it so as to provide a service raised to another Web server.
 
-### 1. STALK Chat Widget 소스 다운로드 및 설치.
+### 1. STALK Chat Widget Installation
 ``` bash
   // Install GULP build tool
   $ sudo npm install -g gulp
@@ -17,15 +17,15 @@ Build STALK chat widget and start HTTP Server
   $ gulp watch
 ```
 
-`gulp widget` 을 실행하면 `./www` 폴더 안에 `widget.js` 파일이 생성되며, 이 스크립트 파일을 사용하여 웹페이지에서 채팅 위쳇을 보여지게 할 수 있습니다.
+After execute `gulp widget` command,  it will generate `widget.js` in `./www` folder. You can add chat widget in your site using the the generated files
 
-### 2. 웹서버 실행하기.
+### 2. Starting web server
 ``` bash
   // Start web server, port 80
   $ sudo node web.js
 ```  
 
-### 3. 웹페이지에 스크립트 작성하여 삽입하기.
+### 3. Add script in your web site.
 
 ``` javascript
 <script>
