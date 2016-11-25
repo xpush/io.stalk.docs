@@ -7,4 +7,5 @@
   * [Start STALK Admin Server](install_stalk_admin.md)
   * [Build Client Chat widget](install_stalk_static.md)
 * [User Guide](user-guide/index.md)
-  * [Create account](user-guide/sign_up.md)
+  * [Create account](user-guide/registration.md)
+  * [Site manage](user-guide/site_manager.md)
