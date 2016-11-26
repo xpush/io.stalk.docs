@@ -9,3 +9,4 @@
 * [User Guide](user-guide/index.md)
   * [Create account](user-guide/registration.md)
   * [Site manage](user-guide/site_manager.md)
+  * [Offline Messages](user-guide/offline_messages.md)
