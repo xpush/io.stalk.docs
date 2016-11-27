@@ -3,11 +3,11 @@
 
 ### 1. 접속 및 이동
 
-localhost:9000에 접속합니다.
+[io.stalk.admin]()을 설치한 경우, *http://YourIP:9000*에 접속합니다.
 
-> 클라우드 서비스를 사용 중인 경우, admin.stalk.io:9000에 접속합니다.
+> 클라우드 서비스를 사용 중인 경우, http://admin.stalk.io:9000에 접속합니다.
 
-Register a new membership 을 클릭합니다.
+Register a new membership 버튼을 클릭합니다.
 
 <a href="images/index.png" target="_blank"><img src="images/index.png" width="400px;"/></a>
 
