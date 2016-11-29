@@ -3,7 +3,7 @@
 
 ### 1. 접속 및 이동
 
-[io.stalk.admin]()을 설치한 경우, *http://YourIP:9000*에 접속합니다.
+[io.stalk.admin](https://github.com/xpush/io.stalk.admin)을 설치한 경우, *http://YourIP:9000*에 접속합니다.
 
 > 클라우드 서비스를 사용 중인 경우, http://admin.stalk.io:9000에 접속합니다.
 
