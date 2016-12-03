@@ -8,7 +8,7 @@
 
 채팅창이 활성화되어 있는 경우 채팅이 가능합니다.
 
-<a href="images/chat_main.png" target="_blank"><img src="images/chat_main.png" width="600px;"/></a>
+<a href="images/chat_main.png" target="_blank"><img src="images/chat_main.PNG" width="600px;"/></a>
 
 ### 2. 메시지 전송
 
@@ -24,7 +24,7 @@
 
 ### 4. 고객 정보 확인
 
-<a href="images/chat_info.png" target="_blank"><img src="images/chat_info.png" width="400px;"/></a>
+<a href="images/chat_info.png" target="_blank"><img src="images/chat_info.PNG" width="400px;"/></a>
 
 채팅창 우측에는 현재 대화 중인 고객의 정보를 확인할 수 있습니다.
 

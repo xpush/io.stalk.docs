@@ -10,7 +10,7 @@ If the chat window is activated, you can chat.
 
 ![chat_main](images/chat_main.png)
 
-<a href="images/chat_main.png" target="_blank"><img src="images/chat_main.png" width="600px;"/></a>
+<a href="images/chat_main.png" target="_blank"><img src="images/chat_main.PNG" width="600px;"/></a>
 
 After you create a message in the input window of the message, you can send a message by pressing the send button
 
@@ -25,7 +25,7 @@ If you select an image file, you can send the file to the client
 
 ### 4. Client Infomation
 
-<a href="images/chat_info.png" target="_blank"><img src="images/chat_info.png" width="600px;"/></a>
+<a href="images/chat_info.png" target="_blank"><img src="images/chat_info.PNG" width="600px;"/></a>
 
 In the chat window right, you can see your client information in the current conversation
 
